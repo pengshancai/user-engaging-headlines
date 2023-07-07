@@ -1,0 +1,14 @@
+CUDA_VISIBLE_DEVICES=0 python scripts/data_process/generate_key_phrases.py \
+    --batch_size 128 \
+    --extract_target text \
+    --extract_split test \
+    --src_max_length 512 \
+    --tgt_max_length 100 \
+    --tgt_min_length 60 \
+    --begin_percentage 0 \
+    --end_percentage 100 \
+    --input_path ../recsum_/data/newsroom/ \
+    --output_path ../recsum_/data/newsroom/kp_7.0/ \
+    --identifier_column url \
+    --corpus newsroom \
+    --hg_model_name ankur310794/bart-base-keyphrase-generation-kpTimes

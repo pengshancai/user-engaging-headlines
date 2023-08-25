@@ -1,6 +1,6 @@
 # Personalized News Summarization
 
-This is the repo for the ACL 2023 paper [Generating User-Engaging News Headlines](https://2023.aclweb.org/calls/main_conference/)
+This is the repo for the ACL 2023 paper [Generating User-Engaging News Headlines](https://aclanthology.org/2023.acl-long.183.pdf)
 
 
 
